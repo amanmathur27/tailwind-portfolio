@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0d993ba01d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aman Mathur</title>
+</head>
+
+<body class="font-montserrat h-screen">
+    <!-- Intro Section -->
+    <div id="home"
+        class="h-1/2 lg:h-screen bg-gradient-to-t from-orange-200 dark:from-slate-500 dark:to-slate-800 relative overflow-hidden">
+        <!-- Navbar -->
+        <nav class="w-full fixed top-0 z-10 bg-white shadow-lg dark:bg-slate-800">
+            <div class="container mx-auto py-4 flex justify-between px-10 items-center">
+                <div class="flex items-center gap-1">
+                    <img class="w-10" src="./images/logo.png" alt="" />
+                    <span class="text-4xl text-orange-600 font-caveat font-extrabold">aman.mathur</span>
+                </div>
+                <ul class="hidden md:flex space-x-8 text-sm uppercase font-semibold text-gray-700 dark:text-gray-100">
+                    <li class="hover:text-gray-500 hover:dark:text-slate-300">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="hover:text-gray-500 hover:dark:text-slate-300">
+                        <a href="#knowme">Know Me</a>
+                    </li>
+                    <li class="hover:text-gray-500 hover:dark:text-slate-300">
+                        <a href="#contactme">Contact Me</a>
+                    </li>
+                    <li class="hover:text-gray-500 hover:dark:text-slate-300">
+                        <a href="#myworks">My Works</a>
+                    </li>
+                    <li class="hover:text-gray-500 hover:dark:text-slate-300">
+                        <a href="./blog.html">Blogs</a>
+                    </li>
+                    <li
+                        class="bg-orange-600 py-1 px-5 rounded-lg text-white hover:text-gray-500 hover:dark:text-slate-300">
+                        <a href="./files/aman's-resume.pdf">My Resume</a>
+                    </li>
+                </ul>
+                <!-- <img class="w-8 hidden md:block cursor-pointer" src="images/logo.png" alt=""> -->
+                <i id="mode"
+                    class="fa-solid fa-circle-half-stroke text-2xl hidden md:block cursor-pointer text-orange-600"></i>
+                <!-- <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 bg-black h-0.5"></div>
+                    <div class="w-6 bg-black h-0.5"></div>
+                    <div class="w-6 bg-black h-0.5"></div>
+                </div> -->
+                <i id="hamburger" class="fa-solid fa-bars space-y-1 md:hidden cursor-pointer z-20 text-2xl dark:text-white"></i>
+                <ul id="menu"
+                    class="hidden bg-orange-400 absolute top-0 right-0 w-1/2 h-screen p-8 rounded-s-3xl space-y-8 text-white text-base font-semibold cursor-pointer z-10 dark:bg-slate-700">
+                    <li><a id="hLink" href="#home">Home</a></li>
+                    <li><a id="hLink" href="#knowme">Know Me</a></li>
+                    <li><a id="hLink" href="#contactme">Contact Me</a></li>
+                    <li><a id="hLink" href="#myworks">My Works</a></li>
+                    <li><a id="hLink" href="./blog.html">Blogs</a></li>
+                    <li
+                        class="bg-white py-1 px-5 rounded-lg text-orange-800 hover:text-gray-500 hover:dark:text-slate-300">
+                        <a href="./files/aman's-resume.pdf">Resume</a>
+                    </li>
+                    <div>
+                        <span class="text-sm">Connect with me</span>
+                        <div class="space-x-2 text-xl space-y-2">
+                            <a href="https://github.com/amanmathur27" target="_blank"><i
+                                    class="fa-brands fa-github text-white"></i></a>
+                            <a href="https://www.linkedin.com/in/aman-mathur-am27/" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in text-white"></i></a>
+                            <a href="https://instagram.com/i_aman_mathur_/" target="_blank"><i
+                                    class="fa-brands fa-instagram text-white"></i></a>
+                            <a href="mailto:amanmathur27.am@gmail.com" target="_blank"><i
+                                    class="fa-solid fa-at text-white"></i></a>
+                        </div>
+                    </div>
+                    <button id="modebtn"
+                        class="bg-slate-100 text-orange-800 px-10 py-1 rounded-xl flex items-center gap-3 dark:bg-slate-950 dark:text-slate-100">
+                        Dark
+                        <i
+                            class="fa-solid fa-circle-half-stroke text-lg cursor-pointer text-orange-800 dark:text-slate-200"></i>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <!-- Intro Content -->
+        <!-- Image -->
+        <img class="absolute right-0 bottom-0 lg:left-0 mx-auto h-5/6 object-cover drop-shadow-md"
+            src="./images/amanpng.png" alt="" />
+        <!-- Circle -->
+        <div
+            class="hidden lg:block absolute right-0 left-0 mx-auto -bottom-1/4 w-big h-big bg-orange-400 rounded-full -z-10">
+        </div>
+        <!-- AnimatedText -->
+        <div
+            class="absolute top-1/3 left-6 text-2xl font-semibold sm:left-10 sm:text-4xl sm:font-normal md:left-1/4 md:text-5xl lg:left-12 lg:text-6xl xl:left-52 xl:text-7xl md:font-normal">
+            <span class="text-gray-600 dark:text-slate-200">Student</span>
+            <p id="anim-text" class="text-amber-600 dark:text-orange-600"></p>
+        </div>
+        <!-- Texts -->
+        <div
+            class="hidden lg:flex flex-col gap-5 rounded-2xl shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 dark:bg-slate-900 dark:shadow-slate-800">
+            <h1 class="text-4xl font-semibold text-amber-600">Hi, I am Aman</h1>
+            <p class="text-gray-500 dark:text-slate-100">
+                A final year B.Tech undergraduate majoring in Computer Science and
+                Engineering, driven by a keen interest in cutting-edge technologies,
+                possessing a good problem-solving skill and strong analytical skills.
+            </p>
+            <a class="bg-amber-600 text-white text-base p-1 px-6 w-fit rounded-xl font-semibold hover:bg-orange-700"
+                href="./files/aman's-resume.pdf">My Resume</a>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="knowme" class="px-8 dark:bg-slate-800">
+        <div class="container mx-auto py-20 flex flex-col-reverse lg:flex-row items-center gap-20">
+            <!-- Left Side -->
+            <div class="relative">
+                <img class="h-1/4 absolute top-0 left-0 -z-10" src="./images/dots.png" alt="" />
+                <div class="h-fit rounded-full overflow-hidden">
+                    <img src="./images/amanabt.jpg" alt="" />
+                </div>
+            </div>
+            <!-- Right Side -->
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-amber-600 font-bold text-xl dark:text-orange-600">
+                    KNOW ME
+                </h1>
+                <p class="text-gray-400 dark:text-slate-300 py-2">
+                    A final year B.Tech undergraduate majoring in Computer Science and
+                    Engineering, driven by a keen interest in cutting-edge technologies,
+                    possessing a good problem-solving skill and strong analytical
+                    skills.
+                </p>
+                <h2 class="text-gray-400 font-medium dark:text-slate-200">
+                    Web-Development
+                </h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-2/3 bg-orange-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium dark:text-slate-200">C/C++</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-4/5 bg-orange-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium dark:text-slate-200">
+                    Data Analysis
+                </h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-2/4 bg-orange-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-400 font-medium dark:text-slate-200">
+                    Problem Solving Skills
+                </h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-2/3 bg-orange-600 h-1.5 rounded-md"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="py-10 dark:bg-slate-800" id="myworks">
+        <div class="container mx-auto">
+            <!-- Top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-amber-600 font-bold text-xl dark:text-orange-600">
+                    MY WORKS
+                </h1>
+                <h1 class="text-3xl dark:text-slate-100">Some of my Projetcs</h1>
+                <p class="md:w-1/2 text-center text-gray-400 dark:text-slate-300">
+                    These are few of my projects, most of them are web based projects.
+                    The link to the source codes of those projects are mentioned below.
+                </p>
+            </div>
+            <!-- Bottom -->
+            <div class="p-5 sm:p-0 flex flex-wrap">
+                <!-- Cards -->
+                <div class="w-full md:w-4/12 shadow-lg rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10" src="./images/icon.png" alt="" />
+                    <h2 class="font-medium text-lg dark:text-slate-200">
+                        Billing System App
+                    </h2>
+                    <p class="text-gray-400 dark:text-slate-300">
+                        Developed a user friendly, single-page static billing system web
+                        application having CRUD functionalities.
+                    </p>
+                    <a class="text-amber-600 font-semibold text dark:text-orange-500 dark:hover:text-orange-300"
+                        href="https://github.com/amanmathur27/billing-webApp" target="_blank">Source Code</a>
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-4/12 shadow-lg rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10" src="./images/icon.png" alt="" />
+                    <h2 class="font-medium text-lg dark:text-slate-200">
+                        Uber Data Analysis
+                    </h2>
+                    <p class="text-gray-400 dark:text-slate-300">
+                        Visualized and analysed trends of Uber's ridership growth in NYC
+                        during 2014 and 2018.
+                    </p>
+                    <a class="text-amber-600 font-semibold text dark:text-orange-500 dark:hover:text-orange-300"
+                        href="https://github.com/lachenlama/TeamOverFlow" target="_blank">Source Code</a>
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-4/12 shadow-lg rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10" src="./images/icon.png" alt="" />
+                    <h2 class="font-medium text-lg dark:text-slate-200">
+                        Next.Js Portfolio Website
+                    </h2>
+                    <p class="text-gray-400 dark:text-slate-300">
+                        Developed and successfully deployed a visually stunning portfolio
+                        website on Vercel. Used Next.js for full-stack development with
+                        server-side rendering.
+                    </p>
+                    <a class="text-amber-600 font-semibold text dark:text-orange-500 dark:hover:text-orange-300"
+                        href="https://github.com/amanmathur27/portfolio-next" target="_blank">Source Code</a>
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-4/12 shadow-lg rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10" src="./images/icon.png" alt="" />
+                    <h2 class="font-medium text-lg dark:text-slate-200">
+                        Advance Calculator
+                    </h2>
+                    <p class="text-gray-400 dark:text-slate-300">
+                        Build this calculator just out of curiosity while i was leanrning
+                        Java Script.
+                    </p>
+                    <a class="text-amber-600 font-semibold text dark:text-orange-500 dark:hover:text-orange-300"
+                        href="#">Source Code</a>
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-4/12 shadow-lg rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10" src="./images/icon.png" alt="" />
+                    <h2 class="font-medium text-lg dark:text-slate-200">Weather App</h2>
+                    <p class="text-gray-400 dark:text-slate-300">
+                        Built this website to fetch real time weather information of any
+                        city or place from around the world with the help APIs.
+                    </p>
+                    <a class="text-amber-600 font-semibold text dark:text-orange-500 dark:hover:text-orange-300"
+                        href="https://github.com/amanmathur27/Weather-JS" target="_blank">Source Code</a>
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-4/12 shadow-lg rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+                    <img class="w-10" src="./images/icon.png" alt="" />
+                    <h2 class="font-medium text-lg dark:text-slate-200">Spell Bee</h2>
+                    <p class="text-gray-400 dark:text-slate-300">
+                        Built the Front-End part of Spell Bee, a spelling quiz
+                        competetion. This was for the first time for me that i contributed
+                        to some one else's project.
+                    </p>
+                    <a class="text-amber-600 font-semibold text dark:text-orange-500 dark:hover:text-orange-300"
+                        href="https://github.com/amanmathur27/SpellBee" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Me -->
+    <div id="contactme" class="dark:bg-slate-800">
+        <div class="container mx-auto">
+            <!-- Top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-amber-600 font-bold text-xl dark:text-orange-600">
+                    CONTACT ME
+                </h1>
+                <h1 class="text-3xl dark:text-slate-200">Connect With Me</h1>
+                <p class="md:w-1/2 text-center text-gray-400 dark:text-slate-300">
+                    Contact me by filling this simple form or get connected to me in my
+                    any of my social media accounts. Links are available in header and footer of
+                    this website.
+                </p>
+            </div>
+            <!-- Bottom -->
+            <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+                <input
+                    class="p-2 md:w-1/2 w-full ring-1 ring-amber-700 rounded-xl dark:bg-slate-900 dark:ring-0 dark:text-slate-100"
+                    type="text" placeholder="Name & Family Name" />
+                <input
+                    class="p-2 md:w-1/2 w-full ring-1 ring-amber-700 rounded-xl dark:bg-slate-900 dark:ring-0 dark:text-slate-100"
+                    type="email" placeholder="Email Id" />
+                <textarea
+                    class="p-2 md:w-1/2 w-full ring-1 ring-amber-700 rounded-xl dark:bg-slate-900 dark:ring-0 dark:text-slate-100"
+                    id="" cols="30" rows="10"
+                    placeholder="Type your message here... NOTE: THIS FORM IS UNDER CONSTRUCTION, PLEASE USE SOCIAL HANDLES TO CONNECT WITH ME."></textarea>
+                <button class="w-1/2 bg-orange-600 text-white font-medium px-3 py-2 cursor-pointer rounded-2xl">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="w-full bg-slate-900">
+            <div class="container mx-auto py-4 flex justify-between px-10 items-center">
+                <div class="flex items-center gap-2">
+                    <img class="w-8" src="./images/logo.png" alt="" />
+                    <span class="text-2xl text-orange-600 font-extrabold font-caveat">aman.mathur</span>
+                </div>
+                <span class="hidden md:block text-white font-medium"> Copyright &copy; 2023 Made by <span
+                    class="font-caveat text-lg">aman.mathur</span> </span>
+                <div class="space-x-2 text-xl space-y-2 cursor-pointer">
+                    <a href="https://github.com/amanmathur27" target="_blank"><i
+                            class="fa-brands fa-github text-white"></i></a>
+                    <a href="https://www.linkedin.com/in/aman-mathur-am27/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in text-white"></i></a>
+                    <a href="https://instagram.com/i_aman_mathur_/" target="_blank"><i
+                            class="fa-brands fa-instagram text-white"></i></a>
+                    <a href="mailto:amanmathur27.am@gmail.com" target="_blank"><i
+                            class="fa-solid fa-at text-white"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+</body>
+
+</html>
