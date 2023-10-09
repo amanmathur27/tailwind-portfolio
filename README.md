@@ -1,5 +1,5 @@
 # Tailwind-portfolio
-Introducing my new portfolio website, a project focused on mastering Tailwind CSS. It showcases my work while demonstrating the efficiency and creativity achieved through this utility-first CSS framework.
+Introducing my new portfolio website having an attractive UI, a project focused on mastering Tailwind CSS. It showcases my work while demonstrating the efficiency and creativity achieved through this utility-first CSS framework.
 This project is fully mobile responsive as well as i have made this website's light and dark versions.
 
 <h2>
